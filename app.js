@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');//To use EJS
 app.use(express.static('public'));//To use JavaScript,CSS,Images
 
 //Creating todolistDB database
-//mongoose.connect("mongodb+srv://admin-shubham:Qwerty123@cluster0.ydjzd.mongodb.net/todolistDB", {useNewUrlParser: true,useUnifiedTopology: true});
+
 mongoose.connect("mongodb://localhost:27017/todolistDB", {useNewUrlParser: true,useUnifiedTopology: true});
 // const items = ["Buy Food","Cook Food","Eat Food",];
 //
